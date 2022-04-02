@@ -1,0 +1,482 @@
+{
+  "nix-info": [
+    {
+      "url": "https://repo1.maven.org/maven2/com/cognitect/transit-java/1.0.362/transit-java-1.0.362.jar",
+      "path": "com/cognitect/transit-java/1.0.362/transit-java-1.0.362.jar",
+      "lib-name": "com.cognitect/transit-java",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/4880f7w841351mv04l8jy7rymg0y6v6a-transit-java-1.0.362.jar",
+      "hash": "sha256-62hXPUbdqFYBzGPZscKH/rXonnbpJQLoJu/QoyP3y1Q="
+    },
+    {
+      "url": "https://repo.clojars.org/selmer/selmer/1.12.44/selmer-1.12.44.jar",
+      "path": "selmer/selmer/1.12.44/selmer-1.12.44.jar",
+      "lib-name": "selmer/selmer",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/gldxw513zl763als3bijcmdkq9p1xr2l-selmer-1.12.44.jar",
+      "hash": "sha256-ea3CD3cwmxXSzyWXMdUx4zONFxb02T+9hg74Zfm+e6o="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/clojure/1.11.0-beta1/clojure-1.11.0-beta1.jar",
+      "path": "org/clojure/clojure/1.11.0-beta1/clojure-1.11.0-beta1.jar",
+      "lib-name": "org.clojure/clojure",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/clz3v42xnxyjhaijd68k5y5jc8hw3ygg-clojure-1.11.0-beta1.jar",
+      "hash": "sha256-yHwnNdBDX/yrdnCWNbwTODrbeIiVYfcToDof/iO2jXc="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/tools.analyzer/1.1.0/tools.analyzer-1.1.0.jar",
+      "path": "org/clojure/tools.analyzer/1.1.0/tools.analyzer-1.1.0.jar",
+      "lib-name": "org.clojure/tools.analyzer",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/a5y5kh19imf2wbv7i5ks1ibic63084x2-tools.analyzer-1.1.0.jar",
+      "hash": "sha256-E2i2vDvd98OY1XhNEFSPRMTtLXwB6hBawO/enPXg3yE="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/tools.logging/1.1.0/tools.logging-1.1.0.jar",
+      "path": "org/clojure/tools.logging/1.1.0/tools.logging-1.1.0.jar",
+      "lib-name": "org.clojure/tools.logging",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/i5q93ah5dci0yjlnzb5yrbx5zpanay8h-tools.logging-1.1.0.jar",
+      "hash": "sha256-ZTEN++LnNziP8KllagxxmuNkU1w88dlpOuGjYXf8X3Q="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/core.specs.alpha/0.2.62/core.specs.alpha-0.2.62.jar",
+      "path": "org/clojure/core.specs.alpha/0.2.62/core.specs.alpha-0.2.62.jar",
+      "lib-name": "org.clojure/core.specs.alpha",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar",
+      "hash": "sha256-Bu6owHC75FwVhWfkQ0OWgbyMRukSNBT4G/oyukLWy8g="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/spec.alpha/0.3.218/spec.alpha-0.3.218.jar",
+      "path": "org/clojure/spec.alpha/0.3.218/spec.alpha-0.3.218.jar",
+      "lib-name": "org.clojure/spec.alpha",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar",
+      "hash": "sha256-Z+yJjrVcZqlXpVJ53YXRN2u5lL2HZosrDeHrO5foquA="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/tools.cli/1.0.206/tools.cli-1.0.206.jar",
+      "path": "org/clojure/tools.cli/1.0.206/tools.cli-1.0.206.jar",
+      "lib-name": "org.clojure/tools.cli",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/6ln9vzfb0s0ldjk6fcj4vx5fhq0q2r6c-tools.cli-1.0.206.jar",
+      "hash": "sha256-a5fSaRkZueqUSomP7HmKkOy4GhdzKRbtvHOm9a/R9hY="
+    },
+    {
+      "url": "https://repo.clojars.org/com/taoensso/encore/3.12.1/encore-3.12.1.jar",
+      "path": "com/taoensso/encore/3.12.1/encore-3.12.1.jar",
+      "lib-name": "com.taoensso/encore",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/hh88slph6bshfgp3pprazbxqqx4hfg83-encore-3.12.1.jar",
+      "hash": "sha256-czFGWeCzQo0tSnUA+1H9JNHBRsY8baJrfKHxABAwsUg="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/tools.analyzer.jvm/1.2.2/tools.analyzer.jvm-1.2.2.jar",
+      "path": "org/clojure/tools.analyzer.jvm/1.2.2/tools.analyzer.jvm-1.2.2.jar",
+      "lib-name": "org.clojure/tools.analyzer.jvm",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/4v0g5wawrzax8m56paxjqbbi3djbs71n-tools.analyzer.jvm-1.2.2.jar",
+      "hash": "sha256-kQz/AjiTHtiIYstmWmd+ldk+hIDyIzIAiG0zHX7QDl4="
+    },
+    {
+      "url": "https://repo.clojars.org/borkdude/graal.locking/0.0.2/graal.locking-0.0.2.jar",
+      "path": "borkdude/graal.locking/0.0.2/graal.locking-0.0.2.jar",
+      "lib-name": "borkdude/graal.locking",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/qgb8j4j5f1rd47sj4jmc9ynj1vl6ns7y-graal.locking-0.0.2.jar",
+      "hash": "sha256-eFlpdVXBVNcgMM6zRTTPuqcKxLWJhAQdN4ULU733FF4="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.12.4/jackson-dataformat-cbor-2.12.4.jar",
+      "path": "com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.12.4/jackson-dataformat-cbor-2.12.4.jar",
+      "lib-name": "com.fasterxml.jackson.dataformat/jackson-dataformat-cbor",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/6z3f2hxs2n2333ylr20cf0drrfg1nqal-jackson-dataformat-cbor-2.12.4.jar",
+      "hash": "sha256-xpFy2QEl4dUh55AUzgOueyVcIoNGuAdPK6G3l4P+yCc="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar",
+      "path": "com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar",
+      "lib-name": "com.googlecode.json-simple/json-simple",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/cczsx139xx6czi4s07z75fydlji7pgsv-json-simple-1.1.1.jar",
+      "hash": "sha256-TmlpaJK4i0HFXUmrL9zCHurZK/VKzFiMAFBZbDt1GZw="
+    },
+    {
+      "url": "https://repo.clojars.org/io/aviso/pretty/0.1.37/pretty-0.1.37.jar",
+      "path": "io/aviso/pretty/0.1.37/pretty-0.1.37.jar",
+      "lib-name": "io.aviso/pretty",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/q5l0fkh9469fh8rqg4rlkfpqk0nq5czm-pretty-0.1.37.jar",
+      "hash": "sha256-f+qqWuS/f92ajK6LVCkDDkvlT9txCzawoV3z+4yWyQ0="
+    },
+    {
+      "url": "https://repo.clojars.org/rewrite-clj/rewrite-clj/1.0.699-alpha/rewrite-clj-1.0.699-alpha.jar",
+      "path": "rewrite-clj/rewrite-clj/1.0.699-alpha/rewrite-clj-1.0.699-alpha.jar",
+      "lib-name": "rewrite-clj/rewrite-clj",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/rbfmk3a7q8dca0awywfdn7dxy181qrr1-rewrite-clj-1.0.699-alpha.jar",
+      "hash": "sha256-Mdpfs/hJ7EVZZRL2UN6eriJA6bc3xXlsYueApwkV9kE="
+    },
+    {
+      "url": "https://repo.clojars.org/org/flatland/ordered/1.5.9/ordered-1.5.9.jar",
+      "path": "org/flatland/ordered/1.5.9/ordered-1.5.9.jar",
+      "lib-name": "org.flatland/ordered",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/0hkd26c4ifc19qkwqvzk5a4wff7m1iya-ordered-1.5.9.jar",
+      "hash": "sha256-Vl9mSXhByNY9CbtLueqzabUl/HQwGGVRIPowqS+uq5Q="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/postgresql/postgresql/42.2.18/postgresql-42.2.18.jar",
+      "path": "org/postgresql/postgresql/42.2.18/postgresql-42.2.18.jar",
+      "lib-name": "org.postgresql/postgresql",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/y1cz3qva6zr7im80566vh1wvhpcvsmap-postgresql-42.2.18.jar",
+      "hash": "sha256-DIkZefHrL+REMtoRTQl2C1Bj2tnmaawKxrC2v7kbs7o="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.4/jackson-core-2.12.4.jar",
+      "path": "com/fasterxml/jackson/core/jackson-core/2.12.4/jackson-core-2.12.4.jar",
+      "lib-name": "com.fasterxml.jackson.core/jackson-core",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/v5ryvlwhryk9kwdh2kxqx4049jqs4n23-jackson-core-2.12.4.jar",
+      "hash": "sha256-NQbOR+wmBK4tgNeVBffLN09xgGBjlBXAfRRK2t0taKM="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar",
+      "path": "org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar",
+      "lib-name": "org.yaml/snakeyaml",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/97vgynri7fs17zpfy4pcmzqr018spnqm-snakeyaml-1.26.jar",
+      "hash": "sha256-2H1gflAIhTVsA8HK5h6MLgXWl9+Hh9WroTSEwut2qEQ="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.jar",
+      "path": "org/ow2/asm/asm/9.2/asm-9.2.jar",
+      "lib-name": "org.ow2.asm/asm",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/d0c86k9zrwihcvb978xg2icwijaj3by6-asm-9.2.jar",
+      "hash": "sha256-udT+TXGTjfOIOfDspCqqpkz4sxPWeNoDbwyzyhmbR/U="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/com/googlecode/lanterna/lanterna/3.0.3/lanterna-3.0.3.jar",
+      "path": "com/googlecode/lanterna/lanterna/3.0.3/lanterna-3.0.3.jar",
+      "lib-name": "com.googlecode.lanterna/lanterna",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/y7xjdq2am2204gjamfajdpvpb4k6zgad-lanterna-3.0.3.jar",
+      "hash": "sha256-q5lK2foF00O7RWDQ98HLF7vkfa7SkvGxU9Q50ROb0KU="
+    },
+    {
+      "url": "https://repo.clojars.org/babashka/clojure-lanterna/0.9.8-SNAPSHOT/clojure-lanterna-0.9.8-20201014.213424-13.jar",
+      "path": "babashka/clojure-lanterna/0.9.8-SNAPSHOT/clojure-lanterna-0.9.8-20201014.213424-13.jar",
+      "lib-name": "babashka/clojure-lanterna",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/liis5ng015hhlrili5zkg4ch67wkk64l-clojure-lanterna-0.9.8-SNAPSHOT.jar",
+      "hash": "sha256-+onr6buP1aHwBikTw41+/2inHI5thYTwoyD9PQx3WN0="
+    },
+    {
+      "url": "https://repo.clojars.org/com/taoensso/truss/1.6.0/truss-1.6.0.jar",
+      "path": "com/taoensso/truss/1.6.0/truss-1.6.0.jar",
+      "lib-name": "com.taoensso/truss",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/pvb9zb2jxnzdalcb694sxwk9p3kpi990-truss-1.6.0.jar",
+      "hash": "sha256-TvDkfabocHLAnMezlPJ0jGIvcYTJZrN3AlXMGQPhtXw="
+    },
+    {
+      "url": "https://repo.clojars.org/hiccup/hiccup/2.0.0-alpha2/hiccup-2.0.0-alpha2.jar",
+      "path": "hiccup/hiccup/2.0.0-alpha2/hiccup-2.0.0-alpha2.jar",
+      "lib-name": "hiccup/hiccup",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/i8wp1b5fnx59k4l2m8pfmbmqacxpx97c-hiccup-2.0.0-alpha2.jar",
+      "hash": "sha256-T1gIfkl/VJOIU0tilwFZWHKCnfrAllcOyJnU/GCg80Q="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar",
+      "path": "org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar",
+      "lib-name": "org.javassist/javassist",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/ycml2v2gwqffqrb2imbkd1wqji5bwrfj-javassist-3.18.1-GA.jar",
+      "hash": "sha256-P7cSMa/QmLsPk/Xrl6qCkcjQVWN5El5Zb5Lsj5RMYWI="
+    },
+    {
+      "url": "https://repo.clojars.org/seancorfield/next.jdbc/1.1.610/next.jdbc-1.1.610.jar",
+      "path": "seancorfield/next.jdbc/1.1.610/next.jdbc-1.1.610.jar",
+      "lib-name": "seancorfield/next.jdbc",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/9h0z2jmmvmmfdx2zr9xng182j0n0lr3h-next.jdbc-1.1.610.jar",
+      "hash": "sha256-PevOkGpK3ExXDCcMdwFb17Mj+r5nAUNV44YHK6Qfics="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/data.xml/0.2.0-alpha6/data.xml-0.2.0-alpha6.jar",
+      "path": "org/clojure/data.xml/0.2.0-alpha6/data.xml-0.2.0-alpha6.jar",
+      "lib-name": "org.clojure/data.xml",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/0b8mb80mh5k49hwhjqqza6j88i79zqj0-data.xml-0.2.0-alpha6.jar",
+      "hash": "sha256-kIgrSsb2EOX9cR+IVUWkkJAjtj2OfVlZGNl9GBtZqCg="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/msgpack/msgpack/0.6.12/msgpack-0.6.12.jar",
+      "path": "org/msgpack/msgpack/0.6.12/msgpack-0.6.12.jar",
+      "lib-name": "org.msgpack/msgpack",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/fs8c4vnryx6h9qmkx17y4q0gfk85m9q1-msgpack-0.6.12.jar",
+      "hash": "sha256-4JymXYUgSI6ApdxCaEior8z9QPSi6zuWRgQlldO9m14="
+    },
+    {
+      "url": "https://repo.clojars.org/borkdude/edamame/0.0.19/edamame-0.0.19.jar",
+      "path": "borkdude/edamame/0.0.19/edamame-0.0.19.jar",
+      "lib-name": "borkdude/edamame",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/sy9fgya4gm2777ahh7z5nij487nhx68q-edamame-0.0.19.jar",
+      "hash": "sha256-DFO1vXj652r3KEklEuxcmyEsjxC2biwx/3RlZ1zzn48="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/data.csv/1.0.0/data.csv-1.0.0.jar",
+      "path": "org/clojure/data.csv/1.0.0/data.csv-1.0.0.jar",
+      "lib-name": "org.clojure/data.csv",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/dyb3rh05l98g650wm9k1pisv06nmaypb-data.csv-1.0.0.jar",
+      "hash": "sha256-khcKPKULbI2QMi3er0YvyzyDzULeyW24XyFzxQJ2UZA="
+    },
+    {
+      "url": "https://repo.clojars.org/com/taoensso/timbre/5.1.2/timbre-5.1.2.jar",
+      "path": "com/taoensso/timbre/5.1.2/timbre-5.1.2.jar",
+      "lib-name": "com.taoensso/timbre",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/vy5k7lwdjf832vb7w9lw61cgxmk44nif-timbre-5.1.2.jar",
+      "hash": "sha256-NwpIPQRUbiFYYrKkKMK1LReetV71cYDfmhO7IdI+l2E="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/com/cognitect/transit-clj/1.0.329/transit-clj-1.0.329.jar",
+      "path": "com/cognitect/transit-clj/1.0.329/transit-clj-1.0.329.jar",
+      "lib-name": "com.cognitect/transit-clj",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/9ba7z1rg6q2w8rpk7dmgmx0milyqgc46-transit-clj-1.0.329.jar",
+      "hash": "sha256-gZpDnNs/zwukaRRpHMGN/cy5HJIl/ZdyK3fU6jSqyWo="
+    },
+    {
+      "url": "https://repo.clojars.org/clj-commons/clj-yaml/0.7.108/clj-yaml-0.7.108.jar",
+      "path": "clj-commons/clj-yaml/0.7.108/clj-yaml-0.7.108.jar",
+      "lib-name": "clj-commons/clj-yaml",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/8llywap9pdg6hcxs5hi9p6b8hlhkjw8h-clj-yaml-0.7.108.jar",
+      "hash": "sha256-MVnDNXqzWVB//Em8iw00hUBFiRPJyd2bzhH719Xt+H0="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar",
+      "path": "org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar",
+      "lib-name": "org.checkerframework/checker-qual",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/9l1lp2yql1b8jp0nzz0zcv89yin6g7yb-checker-qual-3.5.0.jar",
+      "hash": "sha256-cpmQs/GKlWBvwlc4NraVi820TLUr+9G3qpwznP81paQ="
+    },
+    {
+      "url": "https://repo.clojars.org/persistent-sorted-set/persistent-sorted-set/0.1.2/persistent-sorted-set-0.1.2.jar",
+      "path": "persistent-sorted-set/persistent-sorted-set/0.1.2/persistent-sorted-set-0.1.2.jar",
+      "lib-name": "persistent-sorted-set/persistent-sorted-set",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/7390jzgvnhjhqm4058z96rr04p18kvzv-persistent-sorted-set-0.1.2.jar",
+      "hash": "sha256-sF8KrA7fee1anUEMygMX5GgdFs7yKU6WGF+w2LnMF48="
+    },
+    {
+      "url": "https://repo.clojars.org/cheshire/cheshire/5.10.2/cheshire-5.10.2.jar",
+      "path": "cheshire/cheshire/5.10.2/cheshire-5.10.2.jar",
+      "lib-name": "cheshire/cheshire",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/fwhaxqxfmjgnzaai67fpk47zgpj63i60-cheshire-5.10.2.jar",
+      "hash": "sha256-9flKGgmTx/yyUTK5YAFbFwERvAbyqug6igOnSxpK3h4="
+    },
+    {
+      "url": "https://repo.clojars.org/tigris/tigris/0.1.2/tigris-0.1.2.jar",
+      "path": "tigris/tigris/0.1.2/tigris-0.1.2.jar",
+      "lib-name": "tigris/tigris",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/5hps98rhyvnaqnyprlskgrbrlab0zp7p-tigris-0.1.2.jar",
+      "hash": "sha256-SapkjttsFOVwlaEbOR6u5gZXgyP7eXVfkjMaxjAPl6A="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/core.match/1.0.0/core.match-1.0.0.jar",
+      "path": "org/clojure/core.match/1.0.0/core.match-1.0.0.jar",
+      "lib-name": "org.clojure/core.match",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/mwfsghjhh6sc4jn0khsa984l1c4d9cbq-core.match-1.0.0.jar",
+      "hash": "sha256-x3WEyHVXYL2GJ5QoC2/69yx5fJMyT8LoAcE8fAWreIw="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/tools.reader/1.3.6/tools.reader-1.3.6.jar",
+      "path": "org/clojure/tools.reader/1.3.6/tools.reader-1.3.6.jar",
+      "lib-name": "org.clojure/tools.reader",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/j3ddwv6n4a4xgix45331s446srd9bb22-tools.reader-1.3.6.jar",
+      "hash": "sha256-EdGzHyxlwzVbKSu5tEuPyv2lS0TaY+NKuXt5qKs7uOA="
+    },
+    {
+      "url": "https://repo.clojars.org/datascript/datascript/1.0.1/datascript-1.0.1.jar",
+      "path": "datascript/datascript/1.0.1/datascript-1.0.1.jar",
+      "lib-name": "datascript/datascript",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/6bj99ywplfa10713mz14cdz27qb33q58-datascript-1.0.1.jar",
+      "hash": "sha256-Uoa415qgNKS9p3+7QScVZQ2k3juI3YDSdbrlaslLqKc="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.5.1/hsqldb-2.5.1.jar",
+      "path": "org/hsqldb/hsqldb/2.5.1/hsqldb-2.5.1.jar",
+      "lib-name": "org.hsqldb/hsqldb",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/m4ssizc4c4hz0czf0k6m65nxbbmrdsfd-hsqldb-2.5.1.jar",
+      "hash": "sha256-oIu+EYfPcltyGlNuzDy4JTF6iDYW1sTvJdVkpwrYMgI="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/test.check/1.1.1/test.check-1.1.1.jar",
+      "path": "org/clojure/test.check/1.1.1/test.check-1.1.1.jar",
+      "lib-name": "org.clojure/test.check",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/246fvm33h45pnq3ag7q9mxw26a8lbmha-test.check-1.1.1.jar",
+      "hash": "sha256-lFEYFjssNVpfq5bJ69AShxUlVbsulkH1zZ7Qf+S8UHg="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/core.memoize/1.0.253/core.memoize-1.0.253.jar",
+      "path": "org/clojure/core.memoize/1.0.253/core.memoize-1.0.253.jar",
+      "lib-name": "org.clojure/core.memoize",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/q83hjfqm9jkba2k2r899m2h2v4c83hc5-core.memoize-1.0.253.jar",
+      "hash": "sha256-SpEFhRgqsybB0KINNDFb4VY7WlhDfUHAId1/6ZEeHtY="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/data.priority-map/1.1.0/data.priority-map-1.1.0.jar",
+      "path": "org/clojure/data.priority-map/1.1.0/data.priority-map-1.1.0.jar",
+      "lib-name": "org.clojure/data.priority-map",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/sfx4dhv1sc9vskvmfiwd1f6j7yy8gyj3-data.priority-map-1.1.0.jar",
+      "hash": "sha256-/lGvRHL6Dxv9ZvOHHeVQdkAv9mFadLyxezfEAqDqb0w="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/java.data/1.0.78/java.data-1.0.78.jar",
+      "path": "org/clojure/java.data/1.0.78/java.data-1.0.78.jar",
+      "lib-name": "org.clojure/java.data",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/xwary6hsi8m8i54f6hpbs6bs1lzgal1g-java.data-1.0.78.jar",
+      "hash": "sha256-e8mfmCZUSfbRsWgBz0F/SQAwP6XSdOKfaM4yE1ke41s="
+    },
+    {
+      "url": "https://repo.clojars.org/borkdude/sci.impl.reflector/0.0.1/sci.impl.reflector-0.0.1.jar",
+      "path": "borkdude/sci.impl.reflector/0.0.1/sci.impl.reflector-0.0.1.jar",
+      "lib-name": "borkdude/sci.impl.reflector",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/lidwnks6qvar519lays0a2ypnnp6bwya-sci.impl.reflector-0.0.1.jar",
+      "hash": "sha256-fLpuqNfUj1ZEyQ0WvhfjCZcd2OmEHruSD4D9iWTtryg="
+    },
+    {
+      "url": "https://repo.clojars.org/nrepl/bencode/1.1.0/bencode-1.1.0.jar",
+      "path": "nrepl/bencode/1.1.0/bencode-1.1.0.jar",
+      "lib-name": "nrepl/bencode",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/5gaa3797b7jhh3sblfpw5zp3wp1and3s-bencode-1.1.0.jar",
+      "hash": "sha256-V1TadyGxNfKjVRpn8/pGqYe/6Tyi5zt2jp2aM7rG3ms="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/core.cache/1.0.225/core.cache-1.0.225.jar",
+      "path": "org/clojure/core.cache/1.0.225/core.cache-1.0.225.jar",
+      "lib-name": "org.clojure/core.cache",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/saahjnwhc66pc4z48l580bgk19sddc3r-core.cache-1.0.225.jar",
+      "hash": "sha256-wVOqlH7aXNvYqTiCyPur1QN9StcxGAK0vNgBVGn2pbE="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/core.async/1.5.648/core.async-1.5.648.jar",
+      "path": "org/clojure/core.async/1.5.648/core.async-1.5.648.jar",
+      "lib-name": "org.clojure/core.async",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/h4gp05xq9lhid9sfcgga4vk98j305p71-core.async-1.5.648.jar",
+      "hash": "sha256-Tbqwb7/HyUrn4vZoNBpl8nF19tCuigELisqwOdnNMyw="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.12.4/jackson-dataformat-smile-2.12.4.jar",
+      "path": "com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.12.4/jackson-dataformat-smile-2.12.4.jar",
+      "lib-name": "com.fasterxml.jackson.dataformat/jackson-dataformat-smile",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/ihimv0926g3pxaqna19bz71bsbfchi7f-jackson-dataformat-smile-2.12.4.jar",
+      "hash": "sha256-r69Qn/Z+mcd2KhC5TL85idwrv3m+EbUMActgIS8qspo="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/data.codec/0.1.0/data.codec-0.1.0.jar",
+      "path": "org/clojure/data.codec/0.1.0/data.codec-0.1.0.jar",
+      "lib-name": "org.clojure/data.codec",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/yl7mh9nby8x1w5axs7h9bf47ybwvvql8-data.codec-0.1.0.jar",
+      "hash": "sha256-aD1oGVBAPGHCNjVBgeuhtcja9sE1geoTiZNKfV6yjgc="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar",
+      "path": "javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar",
+      "lib-name": "javax.xml.bind/jaxb-api",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/ifpkgsl9pmf7gpgapsjsabvkmy63gkd0-jaxb-api-2.3.0.jar",
+      "hash": "sha256-iDAHmJ03PRnzUrqXkrJd7CHcfQ4gWnEKk6OBUQG7PQM="
+    },
+    {
+      "url": "https://repo.clojars.org/http-kit/http-kit/2.5.3/http-kit-2.5.3.jar",
+      "path": "http-kit/http-kit/2.5.3/http-kit-2.5.3.jar",
+      "lib-name": "http-kit/http-kit",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/b5i3pcq5r6l5pmm8r31ivd2k0i2fd251-http-kit-2.5.3.jar",
+      "hash": "sha256-t1EP0PaumuPAFZWaMckuxGW2QOchZXK9HOuOPWAnH5Q="
+    }
+  ],
+  "clj-runtime": "{:libs {com.cognitect/transit-java {:mvn/version \"1.0.362\", :deps/manifest :mvn, :dependents [com.cognitect/transit-clj], :parents #{[com.cognitect/transit-clj]}, :paths [\"/nix/store/4880f7w841351mv04l8jy7rymg0y6v6a-transit-java-1.0.362.jar\"]}, selmer/selmer {:mvn/version \"1.12.44\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/gldxw513zl763als3bijcmdkq9p1xr2l-selmer-1.12.44.jar\"]}, org.clojure/clojure {:mvn/version \"1.11.0-beta1\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/clz3v42xnxyjhaijd68k5y5jc8hw3ygg-clojure-1.11.0-beta1.jar\"]}, org.clojure/tools.analyzer {:mvn/version \"1.1.0\", :deps/manifest :mvn, :dependents [org.clojure/tools.analyzer.jvm], :parents #{[org.clojure/core.async org.clojure/tools.analyzer.jvm]}, :paths [\"/nix/store/a5y5kh19imf2wbv7i5ks1ibic63084x2-tools.analyzer-1.1.0.jar\"]}, org.clojure/tools.logging {:mvn/version \"1.1.0\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/i5q93ah5dci0yjlnzb5yrbx5zpanay8h-tools.logging-1.1.0.jar\"]}, org.clojure/core.specs.alpha {:mvn/version \"0.2.62\", :deps/manifest :mvn, :dependents [org.clojure/clojure], :parents #{[org.clojure/clojure]}, :paths [\"/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar\"]}, org.clojure/spec.alpha {:mvn/version \"0.3.218\", :deps/manifest :mvn, :dependents [org.clojure/clojure], :parents #{[org.clojure/clojure]}, :paths [\"/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar\"]}, org.clojure/tools.cli {:mvn/version \"1.0.206\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/6ln9vzfb0s0ldjk6fcj4vx5fhq0q2r6c-tools.cli-1.0.206.jar\"]}, com.taoensso/encore {:mvn/version \"3.12.1\", :deps/manifest :mvn, :dependents [com.taoensso/timbre], :parents #{[com.taoensso/timbre]}, :paths [\"/nix/store/hh88slph6bshfgp3pprazbxqqx4hfg83-encore-3.12.1.jar\"]}, org.clojure/tools.analyzer.jvm {:mvn/version \"1.2.2\", :deps/manifest :mvn, :dependents [org.clojure/core.async], :parents #{[org.clojure/core.async]}, :paths [\"/nix/store/4v0g5wawrzax8m56paxjqbbi3djbs71n-tools.analyzer.jvm-1.2.2.jar\"]}, borkdude/graal.locking {:mvn/version \"0.0.2\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/qgb8j4j5f1rd47sj4jmc9ynj1vl6ns7y-graal.locking-0.0.2.jar\"]}, com.fasterxml.jackson.dataformat/jackson-dataformat-cbor {:mvn/version \"2.12.4\", :exclusions #{com.fasterxml.jackson.core/jackson-databind}, :deps/manifest :mvn, :dependents [cheshire/cheshire], :parents #{[cheshire/cheshire]}, :paths [\"/nix/store/6z3f2hxs2n2333ylr20cf0drrfg1nqal-jackson-dataformat-cbor-2.12.4.jar\"]}, com.googlecode.json-simple/json-simple {:mvn/version \"1.1.1\", :exclusions #{junit/junit}, :deps/manifest :mvn, :dependents [org.msgpack/msgpack], :parents #{[com.cognitect/transit-clj com.cognitect/transit-java org.msgpack/msgpack]}, :paths [\"/nix/store/cczsx139xx6czi4s07z75fydlji7pgsv-json-simple-1.1.1.jar\"]}, io.aviso/pretty {:mvn/version \"0.1.37\", :deps/manifest :mvn, :dependents [com.taoensso/timbre], :parents #{[com.taoensso/timbre]}, :paths [\"/nix/store/q5l0fkh9469fh8rqg4rlkfpqk0nq5czm-pretty-0.1.37.jar\"]}, rewrite-clj/rewrite-clj {:mvn/version \"1.0.699-alpha\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/rbfmk3a7q8dca0awywfdn7dxy181qrr1-rewrite-clj-1.0.699-alpha.jar\"]}, babashka/babashka.core {:local/root \"/home/jlle/projects/babashka/babashka.core\", :deps/manifest :deps, :deps/root nil, :parents #{[]}, :paths nil}, org.flatland/ordered {:mvn/version \"1.5.9\", :deps/manifest :mvn, :dependents [clj-commons/clj-yaml], :parents #{[clj-commons/clj-yaml]}, :paths [\"/nix/store/0hkd26c4ifc19qkwqvzk5a4wff7m1iya-ordered-1.5.9.jar\"]}, org.postgresql/postgresql {:mvn/version \"42.2.18\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/y1cz3qva6zr7im80566vh1wvhpcvsmap-postgresql-42.2.18.jar\"]}, com.fasterxml.jackson.core/jackson-core {:mvn/version \"2.12.4\", :deps/manifest :mvn, :dependents [cheshire/cheshire com.fasterxml.jackson.dataformat/jackson-dataformat-cbor com.fasterxml.jackson.dataformat/jackson-dataformat-smile], :parents #{[cheshire/cheshire] [cheshire/cheshire com.fasterxml.jackson.dataformat/jackson-dataformat-cbor] [cheshire/cheshire com.fasterxml.jackson.dataformat/jackson-dataformat-smile]}, :paths [\"/nix/store/v5ryvlwhryk9kwdh2kxqx4049jqs4n23-jackson-core-2.12.4.jar\"]}, org.yaml/snakeyaml {:mvn/version \"1.26\", :deps/manifest :mvn, :dependents [clj-commons/clj-yaml], :parents #{[clj-commons/clj-yaml]}, :paths [\"/nix/store/97vgynri7fs17zpfy4pcmzqr018spnqm-snakeyaml-1.26.jar\"]}, org.ow2.asm/asm {:mvn/version \"9.2\", :deps/manifest :mvn, :dependents [org.clojure/tools.analyzer.jvm], :parents #{[org.clojure/core.async org.clojure/tools.analyzer.jvm]}, :paths [\"/nix/store/d0c86k9zrwihcvb978xg2icwijaj3by6-asm-9.2.jar\"]}, com.googlecode.lanterna/lanterna {:mvn/version \"3.0.3\", :deps/manifest :mvn, :dependents [babashka/clojure-lanterna], :parents #{[babashka/clojure-lanterna]}, :paths [\"/nix/store/y7xjdq2am2204gjamfajdpvpb4k6zgad-lanterna-3.0.3.jar\"]}, babashka/clojure-lanterna {:mvn/version \"0.9.8-SNAPSHOT\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/liis5ng015hhlrili5zkg4ch67wkk64l-clojure-lanterna-0.9.8-SNAPSHOT.jar\"]}, com.taoensso/truss {:mvn/version \"1.6.0\", :deps/manifest :mvn, :dependents [com.taoensso/encore], :parents #{[com.taoensso/timbre com.taoensso/encore]}, :paths [\"/nix/store/pvb9zb2jxnzdalcb694sxwk9p3kpi990-truss-1.6.0.jar\"]}, hiccup/hiccup {:mvn/version \"2.0.0-alpha2\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/i8wp1b5fnx59k4l2m8pfmbmqacxpx97c-hiccup-2.0.0-alpha2.jar\"]}, org.javassist/javassist {:mvn/version \"3.18.1-GA\", :deps/manifest :mvn, :dependents [org.msgpack/msgpack], :parents #{[com.cognitect/transit-clj com.cognitect/transit-java org.msgpack/msgpack]}, :paths [\"/nix/store/ycml2v2gwqffqrb2imbkd1wqji5bwrfj-javassist-3.18.1-GA.jar\"]}, seancorfield/next.jdbc {:mvn/version \"1.1.610\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/9h0z2jmmvmmfdx2zr9xng182j0n0lr3h-next.jdbc-1.1.610.jar\"]}, org.clojure/data.xml {:mvn/version \"0.2.0-alpha6\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/0b8mb80mh5k49hwhjqqza6j88i79zqj0-data.xml-0.2.0-alpha6.jar\"]}, org.msgpack/msgpack {:mvn/version \"0.6.12\", :deps/manifest :mvn, :dependents [com.cognitect/transit-java], :parents #{[com.cognitect/transit-clj com.cognitect/transit-java]}, :paths [\"/nix/store/fs8c4vnryx6h9qmkx17y4q0gfk85m9q1-msgpack-0.6.12.jar\"]}, borkdude/edamame {:mvn/version \"0.0.19\", :deps/manifest :mvn, :dependents [borkdude/sci], :parents #{[borkdude/sci]}, :paths [\"/nix/store/sy9fgya4gm2777ahh7z5nij487nhx68q-edamame-0.0.19.jar\"]}, org.clojure/data.csv {:mvn/version \"1.0.0\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/dyb3rh05l98g650wm9k1pisv06nmaypb-data.csv-1.0.0.jar\"]}, com.taoensso/timbre {:mvn/version \"5.1.2\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/vy5k7lwdjf832vb7w9lw61cgxmk44nif-timbre-5.1.2.jar\"]}, com.cognitect/transit-clj {:mvn/version \"1.0.329\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/9ba7z1rg6q2w8rpk7dmgmx0milyqgc46-transit-clj-1.0.329.jar\"]}, babashka/babashka.curl {:local/root \"/home/jlle/projects/babashka/babashka.curl\", :deps/manifest :deps, :deps/root nil, :parents #{[]}, :paths nil}, clj-commons/clj-yaml {:mvn/version \"0.7.108\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/8llywap9pdg6hcxs5hi9p6b8hlhkjw8h-clj-yaml-0.7.108.jar\"]}, org.checkerframework/checker-qual {:mvn/version \"3.5.0\", :deps/manifest :mvn, :dependents [org.postgresql/postgresql], :parents #{[org.postgresql/postgresql]}, :paths [\"/nix/store/9l1lp2yql1b8jp0nzz0zcv89yin6g7yb-checker-qual-3.5.0.jar\"]}, persistent-sorted-set/persistent-sorted-set {:mvn/version \"0.1.2\", :deps/manifest :mvn, :dependents [datascript/datascript], :parents #{[datascript/datascript]}, :paths [\"/nix/store/7390jzgvnhjhqm4058z96rr04p18kvzv-persistent-sorted-set-0.1.2.jar\"]}, cheshire/cheshire {:mvn/version \"5.10.2\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/fwhaxqxfmjgnzaai67fpk47zgpj63i60-cheshire-5.10.2.jar\"]}, tigris/tigris {:mvn/version \"0.1.2\", :deps/manifest :mvn, :dependents [cheshire/cheshire], :parents #{[cheshire/cheshire]}, :paths [\"/nix/store/5hps98rhyvnaqnyprlskgrbrlab0zp7p-tigris-0.1.2.jar\"]}, org.clojure/core.match {:mvn/version \"1.0.0\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/mwfsghjhh6sc4jn0khsa984l1c4d9cbq-core.match-1.0.0.jar\"]}, org.clojure/tools.reader {:mvn/version \"1.3.6\", :deps/manifest :mvn, :dependents [rewrite-clj/rewrite-clj org.clojure/tools.analyzer.jvm], :parents #{[rewrite-clj/rewrite-clj] [org.clojure/core.async org.clojure/tools.analyzer.jvm]}, :paths [\"/nix/store/j3ddwv6n4a4xgix45331s446srd9bb22-tools.reader-1.3.6.jar\"]}, datascript/datascript {:mvn/version \"1.0.1\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/6bj99ywplfa10713mz14cdz27qb33q58-datascript-1.0.1.jar\"]}, org.hsqldb/hsqldb {:mvn/version \"2.5.1\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/m4ssizc4c4hz0czf0k6m65nxbbmrdsfd-hsqldb-2.5.1.jar\"]}, org.clojure/test.check {:mvn/version \"1.1.1\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/246fvm33h45pnq3ag7q9mxw26a8lbmha-test.check-1.1.1.jar\"]}, babashka/fs {:local/root \"/home/jlle/projects/babashka/fs\", :deps/manifest :deps, :deps/root nil, :parents #{[]}, :paths nil}, org.clojure/core.memoize {:mvn/version \"1.0.253\", :deps/manifest :mvn, :dependents [org.clojure/tools.analyzer.jvm], :parents #{[org.clojure/core.async org.clojure/tools.analyzer.jvm]}, :paths [\"/nix/store/q83hjfqm9jkba2k2r899m2h2v4c83hc5-core.memoize-1.0.253.jar\"]}, org.clojure/data.priority-map {:mvn/version \"1.1.0\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/sfx4dhv1sc9vskvmfiwd1f6j7yy8gyj3-data.priority-map-1.1.0.jar\"]}, org.clojure/java.data {:mvn/version \"1.0.78\", :deps/manifest :mvn, :dependents [seancorfield/next.jdbc], :parents #{[seancorfield/next.jdbc]}, :paths [\"/nix/store/xwary6hsi8m8i54f6hpbs6bs1lzgal1g-java.data-1.0.78.jar\"]}, borkdude/sci.impl.reflector {:mvn/version \"0.0.1\", :deps/manifest :mvn, :dependents [borkdude/sci], :parents #{[borkdude/sci]}, :paths [\"/nix/store/lidwnks6qvar519lays0a2ypnnp6bwya-sci.impl.reflector-0.0.1.jar\"]}, nrepl/bencode {:mvn/version \"1.1.0\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/5gaa3797b7jhh3sblfpw5zp3wp1and3s-bencode-1.1.0.jar\"]}, borkdude/sci {:local/root \"/home/jlle/projects/babashka/sci\", :deps/manifest :deps, :deps/root nil, :parents #{[]}, :paths nil}, org.clojure/core.cache {:mvn/version \"1.0.225\", :deps/manifest :mvn, :dependents [org.clojure/core.memoize], :parents #{[org.clojure/core.async org.clojure/tools.analyzer.jvm org.clojure/core.memoize]}, :paths [\"/nix/store/saahjnwhc66pc4z48l580bgk19sddc3r-core.cache-1.0.225.jar\"]}, org.clojure/core.async {:mvn/version \"1.5.648\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/h4gp05xq9lhid9sfcgga4vk98j305p71-core.async-1.5.648.jar\"]}, com.fasterxml.jackson.dataformat/jackson-dataformat-smile {:mvn/version \"2.12.4\", :exclusions #{com.fasterxml.jackson.core/jackson-databind}, :deps/manifest :mvn, :dependents [cheshire/cheshire], :parents #{[cheshire/cheshire]}, :paths [\"/nix/store/ihimv0926g3pxaqna19bz71bsbfchi7f-jackson-dataformat-smile-2.12.4.jar\"]}, org.clojure/data.codec {:mvn/version \"0.1.0\", :deps/manifest :mvn, :dependents [org.clojure/data.xml], :parents #{[org.clojure/data.xml]}, :paths [\"/nix/store/yl7mh9nby8x1w5axs7h9bf47ybwvvql8-data.codec-0.1.0.jar\"]}, javax.xml.bind/jaxb-api {:mvn/version \"2.3.0\", :deps/manifest :mvn, :dependents [com.cognitect/transit-java], :parents #{[com.cognitect/transit-clj com.cognitect/transit-java]}, :paths [\"/nix/store/ifpkgsl9pmf7gpgapsjsabvkmy63gkd0-jaxb-api-2.3.0.jar\"]}, http-kit/http-kit {:mvn/version \"2.5.3\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/b5i3pcq5r6l5pmm8r31ivd2k0i2fd251-http-kit-2.5.3.jar\"]}}, :mvn/repos {\"central\" {:url \"https://repo1.maven.org/maven2/\"}, \"clojars\" {:url \"https://repo.clojars.org/\"}}, :classpath {\"/nix/store/8llywap9pdg6hcxs5hi9p6b8hlhkjw8h-clj-yaml-0.7.108.jar\" {:lib-name clj-commons/clj-yaml}, \"/nix/store/rbfmk3a7q8dca0awywfdn7dxy181qrr1-rewrite-clj-1.0.699-alpha.jar\" {:lib-name rewrite-clj/rewrite-clj}, \"/nix/store/ifpkgsl9pmf7gpgapsjsabvkmy63gkd0-jaxb-api-2.3.0.jar\" {:lib-name javax.xml.bind/jaxb-api}, \"/nix/store/4880f7w841351mv04l8jy7rymg0y6v6a-transit-java-1.0.362.jar\" {:lib-name com.cognitect/transit-java}, \"/nix/store/9l1lp2yql1b8jp0nzz0zcv89yin6g7yb-checker-qual-3.5.0.jar\" {:lib-name org.checkerframework/checker-qual}, \"/nix/store/y7xjdq2am2204gjamfajdpvpb4k6zgad-lanterna-3.0.3.jar\" {:lib-name com.googlecode.lanterna/lanterna}, \"/nix/store/hh88slph6bshfgp3pprazbxqqx4hfg83-encore-3.12.1.jar\" {:lib-name com.taoensso/encore}, \"/nix/store/b5i3pcq5r6l5pmm8r31ivd2k0i2fd251-http-kit-2.5.3.jar\" {:lib-name http-kit/http-kit}, \"/nix/store/vy5k7lwdjf832vb7w9lw61cgxmk44nif-timbre-5.1.2.jar\" {:lib-name com.taoensso/timbre}, \"/nix/store/i5q93ah5dci0yjlnzb5yrbx5zpanay8h-tools.logging-1.1.0.jar\" {:lib-name org.clojure/tools.logging}, \"/nix/store/liis5ng015hhlrili5zkg4ch67wkk64l-clojure-lanterna-0.9.8-SNAPSHOT.jar\" {:lib-name babashka/clojure-lanterna}, \"/nix/store/pvb9zb2jxnzdalcb694sxwk9p3kpi990-truss-1.6.0.jar\" {:lib-name com.taoensso/truss}, \"/nix/store/0b8mb80mh5k49hwhjqqza6j88i79zqj0-data.xml-0.2.0-alpha6.jar\" {:lib-name org.clojure/data.xml}, \"/nix/store/fs8c4vnryx6h9qmkx17y4q0gfk85m9q1-msgpack-0.6.12.jar\" {:lib-name org.msgpack/msgpack}, \"/nix/store/ycml2v2gwqffqrb2imbkd1wqji5bwrfj-javassist-3.18.1-GA.jar\" {:lib-name org.javassist/javassist}, \"/nix/store/5hps98rhyvnaqnyprlskgrbrlab0zp7p-tigris-0.1.2.jar\" {:lib-name tigris/tigris}, \"/nix/store/m4ssizc4c4hz0czf0k6m65nxbbmrdsfd-hsqldb-2.5.1.jar\" {:lib-name org.hsqldb/hsqldb}, \"/nix/store/cczsx139xx6czi4s07z75fydlji7pgsv-json-simple-1.1.1.jar\" {:lib-name com.googlecode.json-simple/json-simple}, \"/nix/store/j3ddwv6n4a4xgix45331s446srd9bb22-tools.reader-1.3.6.jar\" {:lib-name org.clojure/tools.reader}, \"/nix/store/mwfsghjhh6sc4jn0khsa984l1c4d9cbq-core.match-1.0.0.jar\" {:lib-name org.clojure/core.match}, \"/nix/store/gldxw513zl763als3bijcmdkq9p1xr2l-selmer-1.12.44.jar\" {:lib-name selmer/selmer}, \"/nix/store/ihimv0926g3pxaqna19bz71bsbfchi7f-jackson-dataformat-smile-2.12.4.jar\" {:lib-name com.fasterxml.jackson.dataformat/jackson-dataformat-smile}, \"/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar\" {:lib-name org.clojure/spec.alpha}, \"/nix/store/yl7mh9nby8x1w5axs7h9bf47ybwvvql8-data.codec-0.1.0.jar\" {:lib-name org.clojure/data.codec}, \"/nix/store/4v0g5wawrzax8m56paxjqbbi3djbs71n-tools.analyzer.jvm-1.2.2.jar\" {:lib-name org.clojure/tools.analyzer.jvm}, \"/nix/store/qgb8j4j5f1rd47sj4jmc9ynj1vl6ns7y-graal.locking-0.0.2.jar\" {:lib-name borkdude/graal.locking}, \"/nix/store/h4gp05xq9lhid9sfcgga4vk98j305p71-core.async-1.5.648.jar\" {:lib-name org.clojure/core.async}, \"/nix/store/9h0z2jmmvmmfdx2zr9xng182j0n0lr3h-next.jdbc-1.1.610.jar\" {:lib-name seancorfield/next.jdbc}, \"/nix/store/246fvm33h45pnq3ag7q9mxw26a8lbmha-test.check-1.1.1.jar\" {:lib-name org.clojure/test.check}, \"/nix/store/lidwnks6qvar519lays0a2ypnnp6bwya-sci.impl.reflector-0.0.1.jar\" {:lib-name borkdude/sci.impl.reflector}, \"/nix/store/sfx4dhv1sc9vskvmfiwd1f6j7yy8gyj3-data.priority-map-1.1.0.jar\" {:lib-name org.clojure/data.priority-map}, \"/nix/store/dyb3rh05l98g650wm9k1pisv06nmaypb-data.csv-1.0.0.jar\" {:lib-name org.clojure/data.csv}, \"/nix/store/xwary6hsi8m8i54f6hpbs6bs1lzgal1g-java.data-1.0.78.jar\" {:lib-name org.clojure/java.data}, \"/nix/store/q5l0fkh9469fh8rqg4rlkfpqk0nq5czm-pretty-0.1.37.jar\" {:lib-name io.aviso/pretty}, \"/nix/store/i8wp1b5fnx59k4l2m8pfmbmqacxpx97c-hiccup-2.0.0-alpha2.jar\" {:lib-name hiccup/hiccup}, \"/nix/store/6ln9vzfb0s0ldjk6fcj4vx5fhq0q2r6c-tools.cli-1.0.206.jar\" {:lib-name org.clojure/tools.cli}, \"/nix/store/y1cz3qva6zr7im80566vh1wvhpcvsmap-postgresql-42.2.18.jar\" {:lib-name org.postgresql/postgresql}, \"/nix/store/fwhaxqxfmjgnzaai67fpk47zgpj63i60-cheshire-5.10.2.jar\" {:lib-name cheshire/cheshire}, \"/nix/store/d0c86k9zrwihcvb978xg2icwijaj3by6-asm-9.2.jar\" {:lib-name org.ow2.asm/asm}, \"/nix/store/v5ryvlwhryk9kwdh2kxqx4049jqs4n23-jackson-core-2.12.4.jar\" {:lib-name com.fasterxml.jackson.core/jackson-core}, \"/nix/store/9ba7z1rg6q2w8rpk7dmgmx0milyqgc46-transit-clj-1.0.329.jar\" {:lib-name com.cognitect/transit-clj}, \"/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar\" {:lib-name org.clojure/core.specs.alpha}, \"/nix/store/6z3f2hxs2n2333ylr20cf0drrfg1nqal-jackson-dataformat-cbor-2.12.4.jar\" {:lib-name com.fasterxml.jackson.dataformat/jackson-dataformat-cbor}, \"/nix/store/6bj99ywplfa10713mz14cdz27qb33q58-datascript-1.0.1.jar\" {:lib-name datascript/datascript}, \"/nix/store/7390jzgvnhjhqm4058z96rr04p18kvzv-persistent-sorted-set-0.1.2.jar\" {:lib-name persistent-sorted-set/persistent-sorted-set}, \"/nix/store/q83hjfqm9jkba2k2r899m2h2v4c83hc5-core.memoize-1.0.253.jar\" {:lib-name org.clojure/core.memoize}, \"/nix/store/a5y5kh19imf2wbv7i5ks1ibic63084x2-tools.analyzer-1.1.0.jar\" {:lib-name org.clojure/tools.analyzer}, \"/nix/store/clz3v42xnxyjhaijd68k5y5jc8hw3ygg-clojure-1.11.0-beta1.jar\" {:lib-name org.clojure/clojure}, \"/nix/store/saahjnwhc66pc4z48l580bgk19sddc3r-core.cache-1.0.225.jar\" {:lib-name org.clojure/core.cache}, \"/nix/store/sy9fgya4gm2777ahh7z5nij487nhx68q-edamame-0.0.19.jar\" {:lib-name borkdude/edamame}, \"/nix/store/97vgynri7fs17zpfy4pcmzqr018spnqm-snakeyaml-1.26.jar\" {:lib-name org.yaml/snakeyaml}, \"/nix/store/0hkd26c4ifc19qkwqvzk5a4wff7m1iya-ordered-1.5.9.jar\" {:lib-name org.flatland/ordered}, \"/nix/store/5gaa3797b7jhh3sblfpw5zp3wp1and3s-bencode-1.1.0.jar\" {:lib-name nrepl/bencode}}, :classpath-roots [\"/nix/store/4880f7w841351mv04l8jy7rymg0y6v6a-transit-java-1.0.362.jar\" \"/nix/store/gldxw513zl763als3bijcmdkq9p1xr2l-selmer-1.12.44.jar\" \"/nix/store/clz3v42xnxyjhaijd68k5y5jc8hw3ygg-clojure-1.11.0-beta1.jar\" \"/nix/store/a5y5kh19imf2wbv7i5ks1ibic63084x2-tools.analyzer-1.1.0.jar\" \"/nix/store/i5q93ah5dci0yjlnzb5yrbx5zpanay8h-tools.logging-1.1.0.jar\" \"/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar\" \"/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar\" \"/nix/store/6ln9vzfb0s0ldjk6fcj4vx5fhq0q2r6c-tools.cli-1.0.206.jar\" \"/nix/store/hh88slph6bshfgp3pprazbxqqx4hfg83-encore-3.12.1.jar\" \"/nix/store/4v0g5wawrzax8m56paxjqbbi3djbs71n-tools.analyzer.jvm-1.2.2.jar\" \"/nix/store/qgb8j4j5f1rd47sj4jmc9ynj1vl6ns7y-graal.locking-0.0.2.jar\" \"/nix/store/6z3f2hxs2n2333ylr20cf0drrfg1nqal-jackson-dataformat-cbor-2.12.4.jar\" \"/nix/store/cczsx139xx6czi4s07z75fydlji7pgsv-json-simple-1.1.1.jar\" \"/nix/store/q5l0fkh9469fh8rqg4rlkfpqk0nq5czm-pretty-0.1.37.jar\" \"/nix/store/rbfmk3a7q8dca0awywfdn7dxy181qrr1-rewrite-clj-1.0.699-alpha.jar\" \"/nix/store/0hkd26c4ifc19qkwqvzk5a4wff7m1iya-ordered-1.5.9.jar\" \"/nix/store/y1cz3qva6zr7im80566vh1wvhpcvsmap-postgresql-42.2.18.jar\" \"/nix/store/v5ryvlwhryk9kwdh2kxqx4049jqs4n23-jackson-core-2.12.4.jar\" \"/nix/store/97vgynri7fs17zpfy4pcmzqr018spnqm-snakeyaml-1.26.jar\" \"/nix/store/d0c86k9zrwihcvb978xg2icwijaj3by6-asm-9.2.jar\" \"/nix/store/y7xjdq2am2204gjamfajdpvpb4k6zgad-lanterna-3.0.3.jar\" \"/nix/store/liis5ng015hhlrili5zkg4ch67wkk64l-clojure-lanterna-0.9.8-SNAPSHOT.jar\" \"/nix/store/pvb9zb2jxnzdalcb694sxwk9p3kpi990-truss-1.6.0.jar\" \"/nix/store/i8wp1b5fnx59k4l2m8pfmbmqacxpx97c-hiccup-2.0.0-alpha2.jar\" \"/nix/store/ycml2v2gwqffqrb2imbkd1wqji5bwrfj-javassist-3.18.1-GA.jar\" \"/nix/store/9h0z2jmmvmmfdx2zr9xng182j0n0lr3h-next.jdbc-1.1.610.jar\" \"/nix/store/0b8mb80mh5k49hwhjqqza6j88i79zqj0-data.xml-0.2.0-alpha6.jar\" \"/nix/store/fs8c4vnryx6h9qmkx17y4q0gfk85m9q1-msgpack-0.6.12.jar\" \"/nix/store/sy9fgya4gm2777ahh7z5nij487nhx68q-edamame-0.0.19.jar\" \"/nix/store/dyb3rh05l98g650wm9k1pisv06nmaypb-data.csv-1.0.0.jar\" \"/nix/store/vy5k7lwdjf832vb7w9lw61cgxmk44nif-timbre-5.1.2.jar\" \"/nix/store/9ba7z1rg6q2w8rpk7dmgmx0milyqgc46-transit-clj-1.0.329.jar\" \"/nix/store/8llywap9pdg6hcxs5hi9p6b8hlhkjw8h-clj-yaml-0.7.108.jar\" \"/nix/store/9l1lp2yql1b8jp0nzz0zcv89yin6g7yb-checker-qual-3.5.0.jar\" \"/nix/store/7390jzgvnhjhqm4058z96rr04p18kvzv-persistent-sorted-set-0.1.2.jar\" \"/nix/store/fwhaxqxfmjgnzaai67fpk47zgpj63i60-cheshire-5.10.2.jar\" \"/nix/store/5hps98rhyvnaqnyprlskgrbrlab0zp7p-tigris-0.1.2.jar\" \"/nix/store/mwfsghjhh6sc4jn0khsa984l1c4d9cbq-core.match-1.0.0.jar\" \"/nix/store/j3ddwv6n4a4xgix45331s446srd9bb22-tools.reader-1.3.6.jar\" \"/nix/store/6bj99ywplfa10713mz14cdz27qb33q58-datascript-1.0.1.jar\" \"/nix/store/m4ssizc4c4hz0czf0k6m65nxbbmrdsfd-hsqldb-2.5.1.jar\" \"/nix/store/246fvm33h45pnq3ag7q9mxw26a8lbmha-test.check-1.1.1.jar\" \"/nix/store/q83hjfqm9jkba2k2r899m2h2v4c83hc5-core.memoize-1.0.253.jar\" \"/nix/store/sfx4dhv1sc9vskvmfiwd1f6j7yy8gyj3-data.priority-map-1.1.0.jar\" \"/nix/store/xwary6hsi8m8i54f6hpbs6bs1lzgal1g-java.data-1.0.78.jar\" \"/nix/store/lidwnks6qvar519lays0a2ypnnp6bwya-sci.impl.reflector-0.0.1.jar\" \"/nix/store/5gaa3797b7jhh3sblfpw5zp3wp1and3s-bencode-1.1.0.jar\" \"/nix/store/saahjnwhc66pc4z48l580bgk19sddc3r-core.cache-1.0.225.jar\" \"/nix/store/h4gp05xq9lhid9sfcgga4vk98j305p71-core.async-1.5.648.jar\" \"/nix/store/ihimv0926g3pxaqna19bz71bsbfchi7f-jackson-dataformat-smile-2.12.4.jar\" \"/nix/store/yl7mh9nby8x1w5axs7h9bf47ybwvvql8-data.codec-0.1.0.jar\" \"/nix/store/ifpkgsl9pmf7gpgapsjsabvkmy63gkd0-jaxb-api-2.3.0.jar\" \"/nix/store/b5i3pcq5r6l5pmm8r31ivd2k0i2fd251-http-kit-2.5.3.jar\"]}\n"
+}
