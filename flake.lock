@@ -9,14 +9,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1648923174,
-        "narHash": "sha256-lMRBxxiZ3lkOXU+6mdIpK1wzhDEoWmAeU4L8myH067o=",
-        "type": "git",
-        "url": "file:///home/jlle/projects/jvm-nix"
+        "lastModified": 1649071099,
+        "narHash": "sha256-zK/O7YUU9x1vzBB5DMObhdpbtHYKRSTtJONwnV/ub7s=",
+        "owner": "jlesquembre",
+        "repo": "clj-nix",
+        "rev": "7fdb0b261b19ad0ae5c3ce4c911b0b433f6a88be",
+        "type": "github"
       },
       "original": {
-        "type": "git",
-        "url": "file:///home/jlle/projects/jvm-nix"
+        "owner": "jlesquembre",
+        "repo": "clj-nix",
+        "type": "github"
       }
     },
     "devshell": {
