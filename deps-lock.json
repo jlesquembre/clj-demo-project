@@ -1,32 +1,87 @@
 {
+  "version": 1,
   "nix-info": [
     {
-      "url": "https://repo1.maven.org/maven2/org/clojure/clojure/1.11.0/clojure-1.11.0.jar",
-      "path": "org/clojure/clojure/1.11.0/clojure-1.11.0.jar",
-      "lib-name": "org.clojure/clojure",
-      "repo": "https://repo1.maven.org/maven2/",
-      "type": "mvn",
-      "nix-path": "/nix/store/lixnadpnkssidna4jdh1q16q0zbq00r6-clojure-1.11.0.jar",
-      "hash": "sha256-PiH6daB+yd278bK1A1bPGAcQ0DmN6qT0TpHNYwRVWUc="
+      "url": "https://github.com/babashka/fs.git",
+      "rev": "dc73460e63ff10c701c353227f2689b3d7c33a43",
+      "sha256": "0z495m59yf8drk0s3fjnlh0l0k2y91yvhcx6iz15559v6kqf4r8g",
+      "nix-path": "/nix/store/5gwbc1kipgw2w8al35c1d2aagwy74k3b-fs-dc73460",
+      "type": "git",
+      "lib-name": "io.github.babashka/fs",
+      "paths": [
+        "src"
+      ]
     },
     {
-      "url": "https://repo1.maven.org/maven2/org/clojure/spec.alpha/0.3.218/spec.alpha-0.3.218.jar",
-      "path": "org/clojure/spec.alpha/0.3.218/spec.alpha-0.3.218.jar",
-      "lib-name": "org.clojure/spec.alpha",
-      "repo": "https://repo1.maven.org/maven2/",
-      "type": "mvn",
-      "nix-path": "/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar",
-      "hash": "sha256-Z+yJjrVcZqlXpVJ53YXRN2u5lL2HZosrDeHrO5foquA="
+      "url": "https://repo.clojars.org/medley/medley/1.4.0/medley-1.4.0.jar",
+      "nix-path": "/nix/store/2c5vaz2jryrjzrhgnh9q32c0yf87pl39-medley-1.4.0.jar",
+      "hash": "sha256-TPIRabvctGuZ531Am+63v9GqNmCIUodXQky5l9SW81U=",
+      "lib-name": "medley/medley",
+      "type": "mvn"
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/clojure/1.10.3/clojure-1.10.3.jar",
+      "nix-path": "/nix/store/bv5s28m2pq72bv4whkh1a551cdgz6ymq-clojure-1.10.3.jar",
+      "hash": "sha256-fxJHLa7Y9rUXSYqqKrE6ViR1w+31FHjkWBzHYemJeaM=",
+      "lib-name": "org.clojure/clojure",
+      "type": "mvn"
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/clojure/1.11.1/clojure-1.11.1.jar",
+      "nix-path": "/nix/store/hhg01qyx17fqv2m5nb4zhf82lcmw09qa-clojure-1.11.1.jar",
+      "hash": "sha256-I4G26UI6tGUVFFWUSQPROlYkPWAGuRlK/Bv0+HEMtN4=",
+      "lib-name": "org.clojure/clojure",
+      "type": "mvn"
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/clojure/1.9.0/clojure-1.9.0.jar",
+      "nix-path": "/nix/store/c9ngbhf83vizjy5vpzn3n1n9blvx38gn-clojure-1.9.0.jar",
+      "hash": "sha256-dxKCYeZ2PEf7SNwQLAmXpsCraIz3dvw5prLQuSROQ/s=",
+      "lib-name": "org.clojure/clojure",
+      "type": "mvn"
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/core.specs.alpha/0.1.24/core.specs.alpha-0.1.24.jar",
+      "nix-path": "/nix/store/0zyki9mwag5wsb1cl5hchnh582lyma4n-core.specs.alpha-0.1.24.jar",
+      "hash": "sha256-9h92cdUL8oBN8TTsQQmZCT2QCMXje2jPhVlwlmuTNu0=",
+      "lib-name": "org.clojure/core.specs.alpha",
+      "type": "mvn"
     },
     {
       "url": "https://repo1.maven.org/maven2/org/clojure/core.specs.alpha/0.2.62/core.specs.alpha-0.2.62.jar",
-      "path": "org/clojure/core.specs.alpha/0.2.62/core.specs.alpha-0.2.62.jar",
-      "lib-name": "org.clojure/core.specs.alpha",
-      "repo": "https://repo1.maven.org/maven2/",
-      "type": "mvn",
       "nix-path": "/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar",
-      "hash": "sha256-Bu6owHC75FwVhWfkQ0OWgbyMRukSNBT4G/oyukLWy8g="
+      "hash": "sha256-Bu6owHC75FwVhWfkQ0OWgbyMRukSNBT4G/oyukLWy8g=",
+      "lib-name": "org.clojure/core.specs.alpha",
+      "type": "mvn"
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/core.specs.alpha/0.2.56/core.specs.alpha-0.2.56.jar",
+      "nix-path": "/nix/store/6f3fq54dhbxcv3qg76r7aqqg43b777sz-core.specs.alpha-0.2.56.jar",
+      "hash": "sha256-/PRCveArBKhj8vzFjuaiowxM8Mlw99q4VjTwq3ERZrY=",
+      "lib-name": "org.clojure/core.specs.alpha",
+      "type": "mvn"
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/spec.alpha/0.2.194/spec.alpha-0.2.194.jar",
+      "nix-path": "/nix/store/0v0058klsvqy8lizzdf9jq75kckq5cww-spec.alpha-0.2.194.jar",
+      "hash": "sha256-z2iZ+YUpjGSxPqEplGrZAo3uja3w6rmuGORVAn04JJw=",
+      "lib-name": "org.clojure/spec.alpha",
+      "type": "mvn"
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/spec.alpha/0.1.143/spec.alpha-0.1.143.jar",
+      "nix-path": "/nix/store/p3xl45kh0s51jlpf0axxzl1x7isrdnqr-spec.alpha-0.1.143.jar",
+      "hash": "sha256-S3k2MChDwDOZ5Mh0G5I5/AiFKN6hnH3TMMZMImnfYIA=",
+      "lib-name": "org.clojure/spec.alpha",
+      "type": "mvn"
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/spec.alpha/0.3.218/spec.alpha-0.3.218.jar",
+      "nix-path": "/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar",
+      "hash": "sha256-Z+yJjrVcZqlXpVJ53YXRN2u5lL2HZosrDeHrO5foquA=",
+      "lib-name": "org.clojure/spec.alpha",
+      "type": "mvn"
     }
   ],
-  "clj-runtime": "{:libs #:org.clojure{clojure {:mvn/version \"1.11.0\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/lixnadpnkssidna4jdh1q16q0zbq00r6-clojure-1.11.0.jar\"]}, spec.alpha {:mvn/version \"0.3.218\", :deps/manifest :mvn, :dependents [org.clojure/clojure], :parents #{[org.clojure/clojure]}, :paths [\"/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar\"]}, core.specs.alpha {:mvn/version \"0.2.62\", :deps/manifest :mvn, :dependents [org.clojure/clojure], :parents #{[org.clojure/clojure]}, :paths [\"/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar\"]}}, :mvn/repos {\"central\" {:url \"https://repo1.maven.org/maven2/\"}, \"clojars\" {:url \"https://repo.clojars.org/\"}}, :classpath {\"/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar\" {:lib-name org.clojure/spec.alpha}, \"/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar\" {:lib-name org.clojure/core.specs.alpha}, \"/nix/store/lixnadpnkssidna4jdh1q16q0zbq00r6-clojure-1.11.0.jar\" {:lib-name org.clojure/clojure}}, :classpath-roots [\"/nix/store/lixnadpnkssidna4jdh1q16q0zbq00r6-clojure-1.11.0.jar\" \"/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar\" \"/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar\"]}\n"
+  "clj-runtime": "{[org.clojure/clojure #:mvn{:version \"1.10.3\"}] {:canonicalize [org.clojure/clojure #:mvn{:version \"1.10.3\"}], :manifest-type #:deps{:manifest :mvn}, :coord-deps [[org.clojure/spec.alpha #:mvn{:version \"0.2.194\"}] [org.clojure/core.specs.alpha #:mvn{:version \"0.2.56\"}]], :coord-paths [\"/nix/store/bv5s28m2pq72bv4whkh1a551cdgz6ymq-clojure-1.10.3.jar\"], :nix {:url \"https://repo1.maven.org/maven2/org/clojure/clojure/1.10.3/clojure-1.10.3.jar\", :nix-path \"/nix/store/bv5s28m2pq72bv4whkh1a551cdgz6ymq-clojure-1.10.3.jar\", :hash \"sha256-fxJHLa7Y9rUXSYqqKrE6ViR1w+31FHjkWBzHYemJeaM=\", :lib-name org.clojure/clojure, :type :mvn}}, [org.clojure/core.specs.alpha #:mvn{:version \"0.1.24\"}] {:canonicalize [org.clojure/core.specs.alpha #:mvn{:version \"0.1.24\"}], :manifest-type #:deps{:manifest :mvn}, :coord-deps [], :coord-paths [\"/nix/store/0zyki9mwag5wsb1cl5hchnh582lyma4n-core.specs.alpha-0.1.24.jar\"], :nix {:url \"https://repo1.maven.org/maven2/org/clojure/core.specs.alpha/0.1.24/core.specs.alpha-0.1.24.jar\", :nix-path \"/nix/store/0zyki9mwag5wsb1cl5hchnh582lyma4n-core.specs.alpha-0.1.24.jar\", :hash \"sha256-9h92cdUL8oBN8TTsQQmZCT2QCMXje2jPhVlwlmuTNu0=\", :lib-name org.clojure/core.specs.alpha, :type :mvn}}, [io.github.babashka/fs #:git{:sha \"dc73460e63ff10c701c353227f2689b3d7c33a43\"}] {:canonicalize [io.github.babashka/fs #:git{:sha \"dc73460e63ff10c701c353227f2689b3d7c33a43\", :url \"https://github.com/babashka/fs.git\"}], :manifest-type #:deps{:manifest :deps, :root \"/nix/store/5gwbc1kipgw2w8al35c1d2aagwy74k3b-fs-dc73460\"}, :coord-deps ([org.clojure/clojure #:mvn{:version \"1.10.3\"}]), :coord-paths [\"/nix/store/5gwbc1kipgw2w8al35c1d2aagwy74k3b-fs-dc73460/src\"], :nix {:url \"https://github.com/babashka/fs.git\", :rev \"dc73460e63ff10c701c353227f2689b3d7c33a43\", :sha256 \"0z495m59yf8drk0s3fjnlh0l0k2y91yvhcx6iz15559v6kqf4r8g\", :nix-path \"/nix/store/5gwbc1kipgw2w8al35c1d2aagwy74k3b-fs-dc73460\", :type :git, :lib-name io.github.babashka/fs, :paths [\"src\"]}}, [org.clojure/spec.alpha #:mvn{:version \"0.2.194\"}] {:canonicalize [org.clojure/spec.alpha #:mvn{:version \"0.2.194\"}], :manifest-type #:deps{:manifest :mvn}, :coord-deps [], :coord-paths [\"/nix/store/0v0058klsvqy8lizzdf9jq75kckq5cww-spec.alpha-0.2.194.jar\"], :nix {:url \"https://repo1.maven.org/maven2/org/clojure/spec.alpha/0.2.194/spec.alpha-0.2.194.jar\", :nix-path \"/nix/store/0v0058klsvqy8lizzdf9jq75kckq5cww-spec.alpha-0.2.194.jar\", :hash \"sha256-z2iZ+YUpjGSxPqEplGrZAo3uja3w6rmuGORVAn04JJw=\", :lib-name org.clojure/spec.alpha, :type :mvn}}, [org.clojure/clojure #:mvn{:version \"1.11.1\"}] {:canonicalize [org.clojure/clojure #:mvn{:version \"1.11.1\"}], :manifest-type #:deps{:manifest :mvn}, :coord-deps [[org.clojure/spec.alpha #:mvn{:version \"0.3.218\"}] [org.clojure/core.specs.alpha #:mvn{:version \"0.2.62\"}]], :coord-paths [\"/nix/store/hhg01qyx17fqv2m5nb4zhf82lcmw09qa-clojure-1.11.1.jar\"], :nix {:url \"https://repo1.maven.org/maven2/org/clojure/clojure/1.11.1/clojure-1.11.1.jar\", :nix-path \"/nix/store/hhg01qyx17fqv2m5nb4zhf82lcmw09qa-clojure-1.11.1.jar\", :hash \"sha256-I4G26UI6tGUVFFWUSQPROlYkPWAGuRlK/Bv0+HEMtN4=\", :lib-name org.clojure/clojure, :type :mvn}}, [io.github.babashka/fs #:git{:sha \"dc73460e63ff10c701c353227f2689b3d7c33a43\", :url \"https://github.com/babashka/fs.git\"}] {:canonicalize [io.github.babashka/fs #:git{:sha \"dc73460e63ff10c701c353227f2689b3d7c33a43\", :url \"https://github.com/babashka/fs.git\"}], :manifest-type #:deps{:manifest :deps, :root \"/nix/store/5gwbc1kipgw2w8al35c1d2aagwy74k3b-fs-dc73460\"}, :coord-deps ([org.clojure/clojure #:mvn{:version \"1.10.3\"}]), :coord-paths [\"/nix/store/5gwbc1kipgw2w8al35c1d2aagwy74k3b-fs-dc73460/src\"], :nix {:url \"https://github.com/babashka/fs.git\", :rev \"dc73460e63ff10c701c353227f2689b3d7c33a43\", :sha256 \"0z495m59yf8drk0s3fjnlh0l0k2y91yvhcx6iz15559v6kqf4r8g\", :nix-path \"/nix/store/5gwbc1kipgw2w8al35c1d2aagwy74k3b-fs-dc73460\", :type :git, :lib-name io.github.babashka/fs, :paths [\"src\"]}}, [org.clojure/spec.alpha #:mvn{:version \"0.1.143\"}] {:canonicalize [org.clojure/spec.alpha #:mvn{:version \"0.1.143\"}], :manifest-type #:deps{:manifest :mvn}, :coord-deps [], :coord-paths [\"/nix/store/p3xl45kh0s51jlpf0axxzl1x7isrdnqr-spec.alpha-0.1.143.jar\"], :nix {:url \"https://repo1.maven.org/maven2/org/clojure/spec.alpha/0.1.143/spec.alpha-0.1.143.jar\", :nix-path \"/nix/store/p3xl45kh0s51jlpf0axxzl1x7isrdnqr-spec.alpha-0.1.143.jar\", :hash \"sha256-S3k2MChDwDOZ5Mh0G5I5/AiFKN6hnH3TMMZMImnfYIA=\", :lib-name org.clojure/spec.alpha, :type :mvn}}, [component/maven #:local{:root \"@projectRoot@/components/mvn\"}] {:canonicalize [component/maven #:local{:root \"@projectRoot@/components/mvn\"}], :manifest-type #:deps{:manifest :deps, :root \"@projectRoot@/components/mvn\"}, :coord-deps ([org.clojure/clojure #:mvn{:version \"1.10.3\"}] [medley/medley #:mvn{:version \"1.4.0\"}]), :coord-paths [\"@projectRoot@/components/mvn/src\"]}, [org.clojure/core.specs.alpha #:mvn{:version \"0.2.62\"}] {:canonicalize [org.clojure/core.specs.alpha #:mvn{:version \"0.2.62\"}], :manifest-type #:deps{:manifest :mvn}, :coord-deps [], :coord-paths [\"/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar\"], :nix {:url \"https://repo1.maven.org/maven2/org/clojure/core.specs.alpha/0.2.62/core.specs.alpha-0.2.62.jar\", :nix-path \"/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar\", :hash \"sha256-Bu6owHC75FwVhWfkQ0OWgbyMRukSNBT4G/oyukLWy8g=\", :lib-name org.clojure/core.specs.alpha, :type :mvn}}, [org.clojure/clojure #:mvn{:version \"1.9.0\"}] {:canonicalize [org.clojure/clojure #:mvn{:version \"1.9.0\"}], :manifest-type #:deps{:manifest :mvn}, :coord-deps [[org.clojure/spec.alpha #:mvn{:version \"0.1.143\"}] [org.clojure/core.specs.alpha #:mvn{:version \"0.1.24\"}]], :coord-paths [\"/nix/store/c9ngbhf83vizjy5vpzn3n1n9blvx38gn-clojure-1.9.0.jar\"], :nix {:url \"https://repo1.maven.org/maven2/org/clojure/clojure/1.9.0/clojure-1.9.0.jar\", :nix-path \"/nix/store/c9ngbhf83vizjy5vpzn3n1n9blvx38gn-clojure-1.9.0.jar\", :hash \"sha256-dxKCYeZ2PEf7SNwQLAmXpsCraIz3dvw5prLQuSROQ/s=\", :lib-name org.clojure/clojure, :type :mvn}}, [medley/medley #:mvn{:version \"1.4.0\"}] {:canonicalize [medley/medley #:mvn{:version \"1.4.0\"}], :manifest-type #:deps{:manifest :mvn}, :coord-deps [[org.clojure/clojure #:mvn{:version \"1.9.0\"}]], :coord-paths [\"/nix/store/2c5vaz2jryrjzrhgnh9q32c0yf87pl39-medley-1.4.0.jar\"], :nix {:url \"https://repo.clojars.org/medley/medley/1.4.0/medley-1.4.0.jar\", :nix-path \"/nix/store/2c5vaz2jryrjzrhgnh9q32c0yf87pl39-medley-1.4.0.jar\", :hash \"sha256-TPIRabvctGuZ531Am+63v9GqNmCIUodXQky5l9SW81U=\", :lib-name medley/medley, :type :mvn}}, [component/git #:local{:root \"@projectRoot@/components/git\"}] {:canonicalize [component/git #:local{:root \"@projectRoot@/components/git\"}], :manifest-type #:deps{:manifest :deps, :root \"@projectRoot@/components/git\"}, :coord-deps ([org.clojure/clojure #:mvn{:version \"1.10.3\"}] [io.github.babashka/fs #:git{:sha \"dc73460e63ff10c701c353227f2689b3d7c33a43\"}]), :coord-paths [\"@projectRoot@/components/git/src\"]}, [org.clojure/spec.alpha #:mvn{:version \"0.3.218\"}] {:canonicalize [org.clojure/spec.alpha #:mvn{:version \"0.3.218\"}], :manifest-type #:deps{:manifest :mvn}, :coord-deps [], :coord-paths [\"/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar\"], :nix {:url \"https://repo1.maven.org/maven2/org/clojure/spec.alpha/0.3.218/spec.alpha-0.3.218.jar\", :nix-path \"/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar\", :hash \"sha256-Z+yJjrVcZqlXpVJ53YXRN2u5lL2HZosrDeHrO5foquA=\", :lib-name org.clojure/spec.alpha, :type :mvn}}, [org.clojure/core.specs.alpha #:mvn{:version \"0.2.56\"}] {:canonicalize [org.clojure/core.specs.alpha #:mvn{:version \"0.2.56\"}], :manifest-type #:deps{:manifest :mvn}, :coord-deps [], :coord-paths [\"/nix/store/6f3fq54dhbxcv3qg76r7aqqg43b777sz-core.specs.alpha-0.2.56.jar\"], :nix {:url \"https://repo1.maven.org/maven2/org/clojure/core.specs.alpha/0.2.56/core.specs.alpha-0.2.56.jar\", :nix-path \"/nix/store/6f3fq54dhbxcv3qg76r7aqqg43b777sz-core.specs.alpha-0.2.56.jar\", :hash \"sha256-/PRCveArBKhj8vzFjuaiowxM8Mlw99q4VjTwq3ERZrY=\", :lib-name org.clojure/core.specs.alpha, :type :mvn}}}\n"
 }
