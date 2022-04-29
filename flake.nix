@@ -25,6 +25,7 @@
             name = "me.lafuente/clj-tuto";
             version = "1.0";
             main-ns = "demo.core";
+            aliases = [ "mvn" ];
             jdkRunner = pkgs.jdk17_headless;
           };
 
