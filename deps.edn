@@ -1,4 +1,6 @@
-{:deps {org.clojure/clojure {:mvn/version "1.11.1"}}
+{:deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        net.sourceforge.tess4j/tess4j {:mvn/version "4.6.0"
+                                       :exclusions [bouncycastle/bctsp-jdk14]}}
  :paths ["src"]
  :aliases
 
