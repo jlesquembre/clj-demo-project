@@ -1,10 +1,18 @@
-{:deps {org.clojure/clojure {:mvn/version "1.11.1"}
-        component/git {:local/root "./components/git"}}
+{:deps {org.clojure/clojure {:mvn/version "1.11.1"}}
  :paths ["src"]
  :aliases
- {
-  :mvn
-  {:extra-deps {component/maven {:local/root "components/mvn"}}}
 
-  :main
-  {:main-opts ["-m" "demo.core"]}}}
+ {:main
+  {:main-opts ["-m" "demo.core"]}
+
+  :build
+  {:ns-default build
+   :deps {io.github.clojure/tools.build {
+                                         :git/tag "v0.8.1"
+                                         :git/sha "7d40500"}}}
+                                         ; :git/sha "7d40500863818c6f9a6e077b18db305d02149384"}}}}}
+  :test {:extra-paths ["test"]
+         :extra-deps {cognitect-labs/test-runner
+                      {:git/url "https://github.com/cognitect-labs/test-runner"
+                       :sha "cb96e80f6f3d3b307c59cbeb49bb0dcb3a2a780b"}}
+         :main-opts ["-m" "cognitect.test-runner"]}}}

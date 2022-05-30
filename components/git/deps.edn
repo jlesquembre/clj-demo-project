@@ -1,2 +1,0 @@
-{:paths ["src"]
- :deps {io.github.babashka/fs {:git/sha "dc73460e63ff10c701c353227f2689b3d7c33a43"}}}

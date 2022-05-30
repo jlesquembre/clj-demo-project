@@ -5,7 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     clj-nix = {
-      url = "github:jlesquembre/clj-nix/next";
+      url = "github:jlesquembre/clj-nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -25,8 +25,18 @@
             name = "me.lafuente/clj-tuto";
             version = "1.0";
             main-ns = "demo.core";
-            aliases = [ "mvn" ];
-            jdkRunner = pkgs.jdk17_headless;
+            # jdkRunner = pkgs.jdk17_headless;
+
+            # buildCommand example
+            # buildCommand = "clj -T:build uber";
+
+            # mkDerivation attributes
+            doCheck = true;
+            checkPhase = "clj -M:test";
+          };
+
+          clj-cache = cljpkgs.mk-deps-cache {
+            lockfile = ./deps-lock.json;
           };
 
           jdk-tuto = cljpkgs.customJdk {
@@ -59,32 +69,32 @@
               };
             };
 
-          clj-kondo =
-            let
-              version = "v2022.03.09";
-              cljDrv = cljpkgs.mkCljBin {
-                projectSrc = pkgs.fetchFromGitHub {
-                  owner = "clj-kondo";
-                  repo = "clj-kondo";
-                  rev = version;
-                  hash = "sha256-Yjyd48lg1VcF8pZOrEqn5g/jEmSioFRt0ETSJjp0wWU=";
-                };
-                lock-file = ./extra-pkgs/clj-kondo/deps-lock.json;
+          # clj-kondo =
+          #   let
+          #     version = "v2022.03.09";
+          #     cljDrv = cljpkgs.mkCljBin {
+          #       projectSrc = pkgs.fetchFromGitHub {
+          #         owner = "clj-kondo";
+          #         repo = "clj-kondo";
+          #         rev = version;
+          #         hash = "sha256-Yjyd48lg1VcF8pZOrEqn5g/jEmSioFRt0ETSJjp0wWU=";
+          #       };
+          #       lock-file = ./extra-pkgs/clj-kondo/deps-lock.json;
 
-                # https://github.com/clj-kondo/clj-kondo/blob/61d1447a56de0610c0c500fc6f6e9d6647f2262c/project.clj#L32
-                java-opts = [
-                  "-Dclojure.compiler.direct-linking=true"
-                  "-Dclojure.spec.skip-macros=true"
-                ];
-                name = "clj-kondo";
-                inherit version;
-                main-ns = "clj-kondo.main";
-                jdkRunner = pkgs.jdk17_headless;
-              };
-            in
-            cljpkgs.mkGraalBin {
-              inherit cljDrv;
-            };
+          #       # https://github.com/clj-kondo/clj-kondo/blob/61d1447a56de0610c0c500fc6f6e9d6647f2262c/project.clj#L32
+          #       java-opts = [
+          #         "-Dclojure.compiler.direct-linking=true"
+          #         "-Dclojure.spec.skip-macros=true"
+          #       ];
+          #       name = "clj-kondo";
+          #       inherit version;
+          #       main-ns = "clj-kondo.main";
+          #       jdkRunner = pkgs.jdk17_headless;
+          #     };
+          #   in
+          #   cljpkgs.mkGraalBin {
+          #     inherit cljDrv;
+          #   };
 
         };
       });
