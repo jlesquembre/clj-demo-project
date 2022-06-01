@@ -28,16 +28,6 @@
       "hash": "sha256-JugjMBV9a4RLZ6gGSUXiBlgedyl3GD4+Mf7GBYqppZs="
     },
     {
-      "mvn-path": "babashka/fs/0.1.6/fs-0.1.6.jar",
-      "mvn-repo": "https://repo.clojars.org/",
-      "hash": "sha256-10dINOFvu1Kk2bexqmBSyk0BucZx0f9BWYIxwaF1Vr4="
-    },
-    {
-      "mvn-path": "babashka/fs/0.1.6/fs-0.1.6.pom",
-      "mvn-repo": "https://repo.clojars.org/",
-      "hash": "sha256-DGkccdKdMtYY8CpQnoxw3608xKVWiOwsZl7Yao5/Jp8="
-    },
-    {
       "mvn-path": "com/cognitect/aws/api/0.8.539/api-0.8.539.jar",
       "mvn-repo": "https://repo1.maven.org/maven2/",
       "hash": "sha256-YU5n92m7DGSA55NVfqTg0jZXJ86AntgU7PmVAbnbXak="
