@@ -9,13 +9,6 @@
       "hash": "sha256-xyk3KKWVIWXYXmkFMhHECdwpm/IlygwGeoJfyavDbZA="
     },
     {
-      "lib": "io.github.babashka/fs",
-      "url": "https://github.com/babashka/fs.git",
-      "rev": "dc73460e63ff10c701c353227f2689b3d7c33a43",
-      "git-dir": "https/github.com/babashka/fs",
-      "hash": "sha256-D2Xi8DQ7lVLCj6YzuH1IXkxAAaRWuqHBzA05n0otiXw="
-    },
-    {
       "lib": "io.github.clojure/tools.build",
       "url": "https://github.com/clojure/tools.build.git",
       "rev": "7d40500863818c6f9a6e077b18db305d02149384",
@@ -33,6 +26,16 @@
       "mvn-path": "aopalliance/aopalliance/1.0/aopalliance-1.0.pom",
       "mvn-repo": "https://repo1.maven.org/maven2/",
       "hash": "sha256-JugjMBV9a4RLZ6gGSUXiBlgedyl3GD4+Mf7GBYqppZs="
+    },
+    {
+      "mvn-path": "babashka/fs/0.1.6/fs-0.1.6.jar",
+      "mvn-repo": "https://repo.clojars.org/",
+      "hash": "sha256-10dINOFvu1Kk2bexqmBSyk0BucZx0f9BWYIxwaF1Vr4="
+    },
+    {
+      "mvn-path": "babashka/fs/0.1.6/fs-0.1.6.pom",
+      "mvn-repo": "https://repo.clojars.org/",
+      "hash": "sha256-DGkccdKdMtYY8CpQnoxw3608xKVWiOwsZl7Yao5/Jp8="
     },
     {
       "mvn-path": "com/cognitect/aws/api/0.8.539/api-0.8.539.jar",
@@ -218,16 +221,6 @@
       "mvn-path": "javax/inject/javax.inject/1/javax.inject-1.pom",
       "mvn-repo": "https://repo1.maven.org/maven2/",
       "hash": "sha256-lD4SsQBieARjj6KFgFoKt4imgCZlMeZQkh6/5GIai/o="
-    },
-    {
-      "mvn-path": "medley/medley/1.4.0/medley-1.4.0.jar",
-      "mvn-repo": "https://repo.clojars.org/",
-      "hash": "sha256-TPIRabvctGuZ531Am+63v9GqNmCIUodXQky5l9SW81U="
-    },
-    {
-      "mvn-path": "medley/medley/1.4.0/medley-1.4.0.pom",
-      "mvn-repo": "https://repo.clojars.org/",
-      "hash": "sha256-JhEgB4cMXujVcrvDw4n8a9bMZG1cUAdfbolYQMWGEMA="
     },
     {
       "mvn-path": "net/java/jvnet-parent/3/jvnet-parent-3.pom",
