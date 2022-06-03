@@ -35,6 +35,13 @@
             checkPhase = "clj -M:test";
           };
 
+          clj-lib = cljpkgs.mkCljLib {
+            projectSrc = ./.;
+            name = "me.lafuente/clj-tuto";
+            version = "1.0";
+            # buildCommand = "clj -T:build jar";
+          };
+
           clj-cache = cljpkgs.mk-deps-cache {
             lockfile = ./deps-lock.json;
           };

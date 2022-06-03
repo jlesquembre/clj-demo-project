@@ -9,11 +9,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1654165349,
-        "narHash": "sha256-rFASjixxLmJ5+2w/i7HA1OVJ1r3gc7LQJzdCd950GZ0=",
+        "lastModified": 1654276639,
+        "narHash": "sha256-O0exI3zXU53DRgiI6prXiQ/iSh+QL/37KyGXhnG7HHM=",
         "owner": "jlesquembre",
         "repo": "clj-nix",
-        "rev": "5830fa484696e218508a83421c70e3076a1bd982",
+        "rev": "725e4f297ddd89880f2c9d350218a855ab385539",
         "type": "github"
       },
       "original": {
