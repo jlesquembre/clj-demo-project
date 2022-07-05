@@ -71,7 +71,7 @@
               name = "clj-graal-nix";
               tag = "latest";
               config = {
-                Cmd = "${graalDrv}/bin/${graalDrv.name}";
+                Cmd = "${graalDrv}/bin/${graalDrv.pname}";
               };
             };
 
