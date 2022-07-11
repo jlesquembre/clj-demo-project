@@ -1,25 +1,29 @@
 {
   description = "A flake for clj-nix";
 
-  nixConfig.substituters = [ "https://clj-nix.cachix.org" ];
-
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
+    devshell.url = "github:numtide/devshell";
     clj-nix.url = "github:jlesquembre/clj-nix";
   };
-  outputs = { self, nixpkgs, flake-utils, clj-nix }:
+  outputs = { self, nixpkgs, flake-utils, devshell, clj-nix }:
 
     flake-utils.lib.eachDefaultSystem (system:
       let
-        pkgs = nixpkgs.legacyPackages.${system};
-        cljpkgs = clj-nix.packages."${system}";
+        pkgs = import nixpkgs {
+          inherit system;
+          overlays = [
+            devshell.overlay
+            clj-nix.overlays.default
+          ];
+        };
       in
 
       {
         packages = {
 
-          clj-tuto = cljpkgs.mkCljBin {
+          clj-tuto = pkgs.mkCljBin {
             projectSrc = ./.;
             name = "me.lafuente/clj-tuto";
             version = "1.0";
@@ -34,23 +38,23 @@
             checkPhase = "clj -M:test";
           };
 
-          clj-lib = cljpkgs.mkCljLib {
+          clj-lib = pkgs.mkCljLib {
             projectSrc = ./.;
             name = "me.lafuente/clj-tuto";
             version = "1.0";
             # buildCommand = "clj -T:build jar";
           };
 
-          clj-cache = cljpkgs.mk-deps-cache {
+          clj-cache = pkgs.mk-deps-cache {
             lockfile = ./deps-lock.json;
           };
 
-          jdk-tuto = cljpkgs.customJdk {
+          jdk-tuto = pkgs.customJdk {
             cljDrv = self.packages."${system}".clj-tuto;
             locales = "en,es";
           };
 
-          graal-tuto = cljpkgs.mkGraalBin {
+          graal-tuto = pkgs.mkGraalBin {
             cljDrv = self.packages."${system}".clj-tuto;
           };
 
@@ -75,8 +79,32 @@
               };
             };
 
-          babashka = cljpkgs.mkBabashka { withFeatures = [ "jdbc" "sqlite" ]; };
+          babashka = pkgs.mkBabashka { withFeatures = [ "jdbc" "sqlite" ]; };
         };
+
+        devShells.default =
+          pkgs.devshell.mkShell {
+            packages = [
+              pkgs.clojure
+            ];
+            commands = [
+              {
+                name = "update-deps";
+                help = "Update deps-lock.json";
+                command =
+                  ''
+                    nix run github:jlesquembre/clj-nix#deps-lock
+                  '';
+              }
+            ]
+            ++ pkgs.bbTasksFromFile {
+              file = ./tasks.clj;
+              bb = self.packages."${system}".babashka;
+            };
+            # if we want to use the default nixpkgs babashka version:
+            # ++ pkgs.bbTasksFromFile ./tasks.clj
+          };
+
       });
 
 }
