@@ -5,7 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     devshell.url = "github:numtide/devshell";
-    clj-nix.url = "github:jlesquembre/clj-nix";
+    clj-nix.url = "github:jlesquembre/clj-nix/multirelease";
   };
   outputs = { self, nixpkgs, flake-utils, devshell, clj-nix }:
 
@@ -34,8 +34,8 @@
             # buildCommand = "clj -T:build uber";
 
             # mkDerivation attributes
-            doCheck = true;
-            checkPhase = "clj -M:test";
+            # doCheck = true;
+            # checkPhase = "clj -M:test";
           };
 
           clj-lib = pkgs.mkCljLib {
@@ -51,6 +51,8 @@
 
           jdk-tuto = pkgs.customJdk {
             cljDrv = self.packages."${system}".clj-tuto;
+            # jdkModules = "java.base,java.desktop,java.management,java.naming,java.sql,jdk.unsupported";
+            # multiRelease = true;
             locales = "en,es";
           };
 

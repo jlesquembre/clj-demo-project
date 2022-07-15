@@ -1,4 +1,7 @@
-{:deps {org.clojure/clojure {:mvn/version "1.11.1"}}
+{:deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        com.zaxxer/HikariCP {:mvn/version "5.0.1"}
+        com.github.seancorfield/next.jdbc {:mvn/version "1.2.780"}
+        org.postgresql/postgresql {:mvn/version "42.2.10"}}
 
  :paths ["src"]
  :aliases
