@@ -14,7 +14,7 @@
         pkgs = import nixpkgs {
           inherit system;
           overlays = [
-            devshell.overlay
+            devshell.overlays.default
             clj-nix.overlays.default
           ];
         };
